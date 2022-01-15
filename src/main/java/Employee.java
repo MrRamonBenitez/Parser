@@ -16,4 +16,13 @@ public class Employee {
         this.country = country;
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Работник (id = " + id + ")\n" +
+                "Имя: " + firstName + "\n" +
+                "Фамилия: " + lastName + "\n" +
+                "Страна: " + country + "\n" +
+                "Возраст: " + age + "\n";
+    }
 }
